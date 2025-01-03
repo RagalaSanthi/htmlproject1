@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+
+
+body{
+    background-color: #bc22b5;
+    color: azure;
+    line-height: 1.5;
+}
+
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+
+
+.sidebar{
+    background-color: aquamarine;
+    padding: 30px;
+    border-right: 5px solid rgb(52, 10, 91);
+}
+.profile{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile h1{
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+.profile p{
+    color: chocolate;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navigation{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s ease;
+    display: flex;
+    gap: 100px;
+}
+.navigation a:hover{
+    background-color: rgb(84, 154, 160);   
+}
+
+
+
+
+
+.main-content{
+    padding: 40px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.head h1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+.social{
+    display: flex;
+    margin-right: 730px;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100px;
+    margin-left: 100px;
+}
+.social a{
+    justify-content: space-between;
+    gap: 10px;
+    width: 100px;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.button-icon :hover{
+    background-color: white;
+    cursor: pointer;
+
+}
+.button-icon{
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(46, 111, 87);
+}
+
+
+
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+.search input{
+    width: 300px;
+    border-radius: 80px;
+    padding: 10px 15px;
+    border: 2px solid green;
+}
+.search img{
+    height: 40px;
+    width: 40px;
+    background-color: #bc22b5;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.statics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.stats{
+    background-color: aquamarine;
+    width: 25%;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.stats h3{
+    font-size: 25px;
+}
+.stats p{
+    font-size: 20px;   
+}
+.statics :hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+.skills-section{
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+.skills-section h2{
+    margin-bottom: 20px;
+}
+.skills-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+progress{
+    width: 100%;
+    height: 7px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar{
+    background-color: rgb(213, 219, 144);
+    border-radius: 10px;
+    
+}
+progress::-webkit-progress-value{
+    background-color: rgb(42, 50, 165);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.project-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.project-div{
+    width: 25%;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
